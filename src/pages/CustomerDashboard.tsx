@@ -102,6 +102,7 @@ const CustomerDashboard = () => {
         const data = JSON.parse(event.data);
         setProcessed(data.processedRows);
         setTotalRows(data.totalRows);
+        setTotalPages(data.totalPages);
         setUploadProgress(data.progress);
 
         if (data.estimatedCompletion) {
@@ -154,6 +155,7 @@ const CustomerDashboard = () => {
     try {
       const response = await axios.post(`${API_BASE_URL}/customers/sync`);
       setTotalRows(response.data.totalRows);
+      setTotalPages(response.data.totalPages);
       connectToSSE();
       startElapsedTimer();
     } catch (err: unknown) {
