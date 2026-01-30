@@ -44,7 +44,7 @@ npm run build
 
 ## What has been completed and what is pending
 - I have tried to cover all the requirements and also address the bonus points (I Will cover it later).
-- Issue: Pagination not updated without refresh (I'll solve it later)
+- Issue: Pagination count is incorrect during SSE, but displays the correct number after a page refresh. (Since submission time is over, I will fix it later.)
 
 ## Backend
 - [csv-streaming-server](https://github.com/alaminstore/csv-streaming-server)
