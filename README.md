@@ -29,6 +29,11 @@ npm run dev
 # Build
 npm run build
 ```
+#### Screenshot
+<img src="https://github.com/alaminstore/csv-streaming-client/blob/main/screenshots/csv-streaming-header.jpeg">
+<br/>
+<img src="https://github.com/alaminstore/csv-streaming-client/blob/main/screenshots/csv-streaming.jpeg">
+
 
 ## Features
 
