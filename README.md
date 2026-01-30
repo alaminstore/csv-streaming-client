@@ -42,5 +42,9 @@ npm run build
 - CRUD operations (Create, Edit, Delete)
 - Success/Error notifications
 
+## What has been completed and what is pending
+- I have tried to cover all the requirements and also address the bonus points (I Will cover it later).
+- Issue: Pagination not updated without refresh (I'll solve it later)
+
 ## Backend
 - [csv-streaming-server](https://github.com/alaminstore/csv-streaming-server)
