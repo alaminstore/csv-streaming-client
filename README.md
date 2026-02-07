@@ -42,9 +42,5 @@ npm run build
 - CRUD operations (Create, Edit, Delete)
 - Success/Error notifications
 
-## What has been completed and what is pending
-- I have tried to cover all the requirements and also address the bonus points (I Will cover it later).
-- Issue: Pagination count is incorrect during SSE, but displays the correct number after a page refresh. (Since submission time is over, I will fix it later.)
-
 ## Backend
 - [csv-streaming-server](https://github.com/alaminstore/csv-streaming-server)
