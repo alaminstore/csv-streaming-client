@@ -9,7 +9,7 @@ import SuccessNotification from "../components/SuccessNotification";
 import ErrorNotification from "../components/ErrorNotification";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 50;
 
 const CustomerDashboard = () => {
   // Upload progress state

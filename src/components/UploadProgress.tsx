@@ -41,16 +41,10 @@ const UploadProgress = ({
               />
             )}
           </div>
-
           <div className="text-lg text-[#4a5568] font-semibold mb-6">
-            Processed: {processed.toLocaleString()} {" "}
-            | Elapsed: {formatTime(elapsed)} | ETA: {formatTime(eta)}
-          </div>
-          {/* I also calculated total rows count for csv you can test by enabling the below code */}
-          {/* <div className="text-lg text-[#4a5568] font-semibold mb-6">
             Processed: {processed.toLocaleString()} / {totalRows.toLocaleString()}{" "}
             | Elapsed: {formatTime(elapsed)} | ETA: {formatTime(eta)}
-          </div> */}
+          </div>
         </div>
 
         <div className="w-3/12">
